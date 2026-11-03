@@ -7,16 +7,11 @@ Code, Compile, Run and Debug online from anywhere in world.
 
 *******************************************************************************/
 
-public class Main{
+
+public class Main {
 	public static void main(String[] args){
-	int x = 0;
-	while (x<=9){
-	    int adicao = x+1;
-	    System.out.println("adicao");
-	    x = x + 1;
+	for (int i = 1; i < 5; i++) {
+	    System.out.println(i);
 	}
 	}
-    }
-		
-		
-		
+}
